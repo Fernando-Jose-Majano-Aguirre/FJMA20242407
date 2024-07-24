@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Fjma20240724Application<FJMA20240724>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.FJMA20240724.Fjma20240724Application",
+            "projectName": "FJMA20240724",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
