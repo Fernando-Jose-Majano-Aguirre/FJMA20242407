@@ -4,14 +4,12 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             height: 100vh;
             background-color: #f0f0f0;
         }
         .calculator-container {
             background: linear-gradient(to bottom, #e6f0ff, #cce0ff);
+            margin-left: auto;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -54,9 +52,9 @@
     </style>
 </head>
 <body>
-<div class="calculator-container">
+<div class="calculator-container" align-items="right">
     <h1>Multiplicacion</h1>
-    <form id="calculator-form" th:action="@{/calculadora/multiplicar}" method="post">
+    <form id="calculator-form" th:action="@{/calculadora/multiplicar}" method="post" >
         <label for="num1">Numero 1:</label>
         <input type="number" id="num1" name="num1" th:value="${num1}"><br>
 
